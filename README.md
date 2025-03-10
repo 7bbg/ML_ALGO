@@ -21,10 +21,13 @@ Each algorithm follows these general steps:
 5. **Predictions:** Apply the trained model to new data.
 
 ## Installation
-Ensure you have Python installed and required dependencies:
-```sh
-pip install numpy pandas matplotlib scikit-learn
-```
+- Install virtual environment (`venv`) os(`WINDOWS`): `python3 -m venv venv`
+- Activate virtual environment (`venv`) os(`WINDOWS`): `./venv/Scripts/activate`
+- Deactivate virtual environment (`venv`) os(`WINDOWS`): `./venv/Scripts/deactivate`
+- Install required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
 
 ## Usage
 Run individual scripts to train models and visualize results:
